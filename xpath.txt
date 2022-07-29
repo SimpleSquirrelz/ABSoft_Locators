@@ -1,0 +1,11 @@
+//*[@class='main']
+//*[@id='hello']
+//*[@alt='placeholder']
+//a[@class='link' and contains(@href, 'wikipedia')]
+//p|//h1
+//*[@class='main']//a
+//*[@class='main']/a
+//h1/following-sibling::a 
+//p/following-sibling::a[1]
+//li[1]
+//li[last()]

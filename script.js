@@ -31,3 +31,5 @@ document.getElementById('loadNotes').addEventListener('click', () => {
   request.open('GET', '_items.html', true);
   request.send();
 })
+
+document.getElementById("scrollToTop").addEventListener('click', () => window.scrollTo({top: 0, left: 0, behavior: 'smooth'}))
